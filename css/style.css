@@ -1,0 +1,154 @@
+/****************Styles****************/
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50 auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-top-width: 10px;
+  border-color: #EAF6F6;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+/*************Class Styles**************/
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  bottom: 40%;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  padding: 40px 0 20px 0;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.button {
+  padding: 20px;
+  background-color: #11999E;
+  border-radius: 8px;
+  position: absolute;
+  top: 120%;
+  right: 40%;
+  text-decoration: none;
+  color: white;
+  -moz-box-shadow: 5px 5px #66BFBF;
+  -webkit-box-shadow: 5px 5px #66BFBF;
+  box-shadow: 5px 5px #66BFBF;
+}
+
+.button:hover {
+  padding: 20px;
+  background-color: #66BFBF;
+  border-radius: 8px;
+  position: absolute;
+  top: 120%;
+  right: 40%;
+  text-decoration: none;
+  color: white;
+  -moz-box-shadow: 5px 5px #11999E;
+  -webkit-box-shadow: 5px 5px #11999E;
+  box-shadow: 5px 5px #11999E;
+}
+
+.contact-me{
+  width: 50%;
+  margin: auto auto 125px auto;
+  position: relative;
+}
+
+.footer-link{
+  color: #11999E;
+  font-size: 1.5rem;
+}
+
+.programming-skill {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin: auto 30px 10px auto;
+}
+
+.profile{
+  width:25%;
+  margin: 100px auto 50px auto;
+  color: #40514E;
+}
+
+.profile-pic {
+  width: 50%;
+  height: 50%;
+}
+
+.python-skill {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  line-height: 2;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.subtitle {
+  position: relative;
+  font-weight: normal;
+  top: 50px;
+}
+
+.title {
+  position: relative;
+  top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 40px;
+  position: relative;
+}
+
+/*************ID Styles****************/
